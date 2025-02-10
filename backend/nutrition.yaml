@@ -1,0 +1,61 @@
+version: "1.1.2"
+metadata:
+  name: "nutrition-schedule-maker"
+  description: "generate sleep schedule based upon a persons habits and ailments"
+  author: "kanavchoudhary"
+  tags: []
+  private: false
+
+inputs:
+  prime_input_1:
+    type: string
+    description: "how much do you drink"
+    required: true
+    example: "copiously"
+  prime_input_2:
+    type: string
+    description: "how stressful is your job"
+    required: true
+    example: "very stressful"
+  prime_input_3:
+    type: string
+    description: "what time so you have dinner"
+    required: true
+    example: "around nine pm"
+  prime_input_4:
+    type: string
+    description: "what time do you generally wake up"
+    required: true
+    example: "around 5 am"
+  prime_input_5:
+    type: string
+    description: "give a list of your major ailments"
+    required: true
+    example: "heart disease, glycoma, asthma"
+  prime_input_6:
+    type: string
+    description: "how much physical excerise do you do"
+    required: true
+    example: "extrenuous physical excercise seven days a week "
+  prime_input_7:
+    type: string
+    description: "gender"
+    required: true
+    example: "male"
+  prime_input_8:
+    type: string
+    description: "gains wanted"
+    required: true
+    example: "want 6 pack abs and 16 inch biceps"
+dataset:
+  source: "kanavchoudhary/hackathon"  
+
+model:
+  provider: "openai"
+  name: "gpt-4o"
+
+prompt: |
+  Give nutrition(only diet) schedule to a person alliviate the  ailments{prime_input_5} while accomodating the persons gender {prime_input_7} general dinner timings {prime_input_3}, morning wake up time {prime_input_4},
+  his drinking habits{prime_input_1}, his excerise schedule{prime_input_6} along with his stress level {prime_input_2}. the diet should encourage the muscle gains wanted{prime_input_8}. The relevant information about the food items that can be recommended to create the ideal diet and nutrition can be obtained from the dataset from the food related files available.
+
+readme: |

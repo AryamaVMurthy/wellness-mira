@@ -1,0 +1,56 @@
+version: "1.1.4"
+metadata:
+  name: "sleep-schedule-and-benefits-flow"
+  description: "generate sleep schedule based upon a persons habits and ailments"
+  author: "kanavchoudhary"
+  tags: []
+  private: false
+
+inputs:
+  prime_input_1:
+    type: string
+    description: "how much do you drink"
+    required: true
+    example: "copiously"
+  prime_input_2:
+    type: string
+    description: "how stressful is your job"
+    required: true
+    example: "very stressful"
+  prime_input_3:
+    type: string
+    description: "what time so you have dinner"
+    required: true
+    example: "around nine pm"
+  prime_input_4:
+    type: string
+    description: "what time do you generally wake up"
+    required: true
+    example: "around 5 am"
+  prime_input_5:
+    type: string
+    description: "give a list of your major ailments"
+    required: true
+    example: "heart disease, glycoma, asthma"
+  prime_input_6:
+    type: string
+    description: "how much physical excerise do you do"
+    required: true
+    example: "extrenuous physical excercise seven days a week "
+  prime_input_7:
+    type: string
+    description: "gender"
+    required: true
+    example: "male"
+dataset:
+  source: "kanavchoudhary/hackathon"  
+model:
+  provider: "openai"
+  name: "gpt-4o"
+
+prompt: |
+  Give a sleep schedule to a person while accomodating the persons gender {prime_input_7} general dinner timings {prime_input_3}, morning wake up time {prime_input_4} (because the person has to go to work the morning time can only be extended by 1 hour)
+  .The sleep schedule should also accomodate his drinking habits{prime_input_1}, his excerise schedule{prime_input_6}(consideration to the tiredness level due to excercise has to be made) along with his stress level {prime_input_2}, The schedule 
+  should help to alleviate his ailments{prime_input_5} .
+  also list the possible improvements to his various ailments{prime_input_5} by following the aobe mentiond schedule. Information about the sleep quality, its effects on tiredness levels etc. can also be obtained form the dataset from the sleep related documents.
+readme: |

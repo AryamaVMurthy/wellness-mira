@@ -1,0 +1,74 @@
+version: "1.0.0"
+metadata:
+  name: "ai-wellbeing"
+  description: "Give you a personalized AI assistant to cater to you all round wellbeinbg from your mental health, gym training, sleep schedule, health etc. Also gives you your current health score and final health score after implementing all the recommendations"
+  author: "kanavchoudhary"
+  tags: [tag1,tag2,tag3]
+  private: false
+
+inputs:
+  prime_input_1:
+    type: string
+    description: "how much do you drink"
+    required: true
+    example: "copiously"
+  prime_input_2:
+    type: string
+    description: "how stressful is your job"
+    required: true
+    example: "very stressful"
+  prime_input_3:
+    type: string
+    description: "what time so you have dinner"
+    required: true
+    example: "around nine pm"
+  prime_input_4:
+    type: string
+    description: "what time do you generally wake up"
+    required: true
+    example: "around 5 am"
+  prime_input_5:
+    type: string
+    description: "give a list of your major ailments"
+    required: true
+    example: "heart disease, glycoma, asthma"
+  prime_input_6:
+    type: string
+    description: "how much physical excerise do you do"
+    required: true
+    example: "extrenuous physical excercise seven days a week "
+  prime_input_7:
+    type: string
+    description: "gender"
+    required: true
+    example: "male"
+  prime_input_8:
+    type: string
+    description: "gains wanted"
+    required: true
+    example: "want 6 pack abs and 16 inch biceps"
+  input1:
+    type: string
+    description: "gym schedule"
+    required: true
+    example: "Creating a gym schedule for someone with these specific considerations requires a carefully balanced approach. It's important to address muscle gain goals while accommodating lifestyle factors, stress levels, and health conditions, particularly heart disease. The following schedule is a general guideline, but it's essential to consult with a healthcare provider or a certified fitness professional to ensure safety and alignment with personal health conditions.\n\n### General Guidelines:\n\n1. **Consult a Healthcare Professional:** Before starting any exercise program, especially with heart disease, get clearance from a healthcare provider. They can offer advice tailored to your specific health needs.\n\n2. **Consider Nutrition:** Adequate protein intake and balanced nutrition are crucial for muscle gain. Consider consulting a nutritionist to plan a diet that aligns with your goals and accommodates a late dinner.\n\n3. **Hydration:** Stay well-hydrated, especially with alcohol consumption; consider limiting intake as it can affect muscle recovery and overall health.\n\n4. **Stress Management:** Integrate stress management techniques such as meditation, deep breathing exercises, or yoga to enhance overall well-being and recovery.\n\n5. **Progress Gradually:** Start with a lower intensity and gradually increase as your body adapts to the workout routine to prevent overexertion.\n\n### Sample Weekly Gym Schedule:\n\n**Monday: Upper Body (Focus on Form and Light Loads)**\n- **Morning**\n  - Walk or light jog: 10-15 minutes to warm up\n  - Chest Press (machine or dumbbells): 3 sets of 10 reps\n  - Seated Row (machine or cable): 3 sets of 10 reps\n  - Bicep Curls: 3 sets of 10-12 reps\n  - Cool down with stretches and focus on breathing\n\n**Tuesday: Rest Day / Light Activity**\n- Gentle yoga or stretching\n- Focus on stress-reducing activities or a leisurely walk\n\n**Wednesday: Lower Body**\n- **Morning**\n  - Light cardio (walking or cycling): 10-15 minutes\n  - Leg Press or Body-weight Squats: 3 sets of 10 reps\n  - Calf Raises: 3 sets of 12 reps\n  - Cool down with leg stretches\n\n**Thursday: Core and Stability**\n- **Morning**\n  - Plank: 3 sets of 20-30 seconds\n  - Russian Twists: 3 sets of 12 reps\n  - Bird Dogs: 3 sets of 10 reps per side\n  - Focus on form and controlled breathing\n\n**Friday: Rest Day / Stress Management**\n- Engage in a hobby or activity that reduces stress\n- Brief meditation or mindfulness session\n\n**Saturday: Light Full-Body Activity**\n- **Morning**\n  - Circuit (light intensity): 2 rounds, 10-15 reps each exercise\n    - Push-ups (wall or knee if needed)\n    - Dumbbell Shoulder Press (light weight)\n    - Leg Curls (machine or light modifications)\n    - Bicep Curls\n    - Tricep Extensions\n  - Stretch and practice deep breathing exercises\n\n**Sunday: Rest and Recovery**\n- Prioritize relaxing activities and rest\n- Focus on mindful eating and hydration\n\n### Additional Tips:\n\n- **Monitoring Intensity:** Always pay attention to how your body feels during and after workouts. Any discomfort or stress should be addressed, and adjustments made accordingly.\n  \n- **Alcohol Consumption:** Try to reduce alcohol intake, especially on workout days, as it can impede recovery and exacerbate stress or heart conditions.\n\n- **Adjust Dinner Timing:** If possible, consider eating a lighter meal post-workout and a more substantial meal earlier in the evening to help digestive and recovery processes.\n\nDeveloping larger biceps or other specific muscle gains takes time, patience, and consistency. Balancing all these factors will contribute to achieving your goals while maintaining overall health and well-being. Always listen to your body and make modifications as needed "
+  input2:
+    type: string
+    description: "nutrition schedule"
+    required: true
+    example: "To help mitigate the risks of heart disease while also supporting muscle gain and abdominal definition, it's crucial to design a diet plan that emphasizes heart health while providing the necessary nutrients and energy for muscle development. The following includes meal recommendations scheduled around your specified wake-up time and dinner time, alongside some tips to address stress and drinking habits. This plan should serve as a guideline and should ideally be customized further with a healthcare or nutrition professional.\n\n### General Guidelines:\n1. **Moderate Alcohol Consumption**: If drinking is copious, gradually reduce alcohol intake. Limit to a maximum of 2 drinks per day and consider alcohol-free days to promote heart health.\n2. **Increase Hydration**: Drink plenty of water throughout the day to support overall health and metabolic functions.\n3. **Limit Processed Foods**: Reduce intake of foods high in added sugars, sodium, and unhealthy fats.\n4. **Incorporate Healthy Fats**: Focus on sources of healthy fats such as avocados, nuts, seeds, and fish.\n5. **Focus on Lean Proteins**: Essential for muscle gain and maintenance, include sources like poultry, fish, legumes, and low-fat dairy.\n6. **Consume Whole Grains**: Opt for whole grains over refined carbs for better heart health.\n7. **Eat Plenty of Fruits and Vegetables**: Aim for a variety of colors to ensure a broad intake of nutrients and antioxidants.\n\n### Nutrition Schedule:\n\n#### Morning (5:00 - 7:00 AM)\n- **Hydration**: Start with a glass of water. Consider adding lemon for flavor and vitamin C.\n- **Breakfast**: Oatmeal made with skim or plant milk topped with berries, a spoonful of chia or flax seeds, and a few almonds or walnuts.\n\n#### Mid-Morning Snack (8:30 - 9:30 AM)\n- Greek yogurt with a handful of mixed berries or a small banana.\n- Option: A protein shake with a scoop of protein powder, almond milk, and spinach.\n\n#### Lunch (12:00 - 1:00 PM)\n- Grilled chicken breast or tofu with a large mixed salad (leafy greens, cherry tomatoes, cucumber, bell peppers) and olive oil dressing.\n- Quinoa or brown rice as a side dish for complex carbohydrates.\n\n#### Afternoon Snack (3:30 - 4:30 PM)\n- Hummus with carrot sticks, cucumber slices, and whole grain crackers.\n- Option: A small handful of mixed nuts and a piece of fruit.\n\n#### Dinner (8:00 - 9:00 PM)\n- Baked salmon or mackerel with steamed broccoli and sweet potatoes.\n- Alternatively, a vegetable stir-fry with tofu or shrimp over whole-grain noodles.\n\n#### Evening Snack (optional, 10:00 PM)\n- Cottage cheese or a small serving of nuts.\n- Herbal tea to help relax and unwind before bed.\n\n### Additional Tips:\n- **Addressing Stress**: Incorporate stress-reducing practices, such as meditation, deep breathing, or yoga, which can also complement your exercise routine.\n- **Exercise Encouragement**: Consider incorporating short exercise sessions like brisk walking, cycling, or body-weight exercises, if feasible, to improve both heart health and muscle definition.\n- **Flexibility**: Pay attention to body cues and adjust portion sizes if requiring more or fewer calories.\n\nThis dietary approach builds a foundation for heart health while simultaneously working toward achieving muscle gains and improved body composition."
+  input3:
+    type: string
+    description: "sleep schedule"
+    required: true
+    example: "Creating a sleep schedule that accommodates the constraints and lifestyle described is challenging, but it's important to prioritize health and well-being, especially considering the person's heart disease. Although his lifestyle habits are not ideal for heart health, gradual changes in routine can be beneficial. Here's a suggested sleep and lifestyle schedule to ease into healthier habits over time:\n\n### Sleep Schedule:\n\n1. **Wind-down Routine** (8:00 PM - 9:00 PM)\n   - Start by eating a light dinner at 8:30 PM to avoid going to bed immediately after eating.\n   - Engage in relaxing activities such as reading, meditating, or taking a warm bath.\n   - Avoid screens (TV, phone, computer) before bedtime. If needed, use blue-light filters.\n\n2. **Sleep Time** (9:30 PM - 5:30 AM)\n   - Aim for 7-8 hours of sleep. Given the early wake-up, hitting bed by 9:30 PM is ideal.\n   - Create a comfortable sleep environment (dark, cool room, comfortable bed).\n\n3. **Wake-Up Routine** (5:30 AM - 6:00 AM)\n   - Gradually get out of bed; consider morning stretching to wake up the body gently.\n   - Consistency is key, so keep similar wake-up times even on weekends.\n\n### Lifestyle Improvements:\n\n1. **Hydration and Alcohol**:\n   - Hydrate throughout the day with water and limit alcohol intake, particularly in the evening, as it can disrupt sleep patterns.\n\n2. **Exercise**:\n   - Gradually incorporate light exercise, like a 10-minute walk after meals, to reduce stress and improve heart health without overwhelming the body.\n\n3. **Stress Management**:\n   - Incorporate stress-reduction techniques like mindfulness meditation or deep-breathing exercises, especially during the wind-down routine.\n\n4. **Diet**:\n   - Shift towards heart-healthy meals rich in fruits, vegetables, whole grains, and lean proteins. Reduce saturated fats and salt intake.\n\n### Potential Improvements for Heart Health:\n\n- **Improved Sleep Quality**: This schedule aims to regularize sleep patterns, which can reduce blood pressure and alleviate stress on the heart.\n- **Stress Reduction**: With better sleep and stress management techniques, cortisol levels may decrease, reducing cardiovascular strain.\n- **Heart Health**: Incorporating even small amounts of exercise and dietary adjustments can substantially improve heart health over time.\n- **Alcohol Consumption**: Reducing alcohol helps improve liver function, sleep quality, and heart health.\n  \nImplementing these changes might be challenging, but focusing on gradual, consistent improvements can yield significant health benefits over time. Always consult with a healthcare professional before making major lifestyle changes, especially regarding heart disease."
+model:
+  provider: "openai"
+  name: "gpt-4o" 
+prompt: 
+  Give a health score out of 100 by considering a person's drinking habits{prime_input_1}, job stress{prime_input_2}, dinner time{prime_input_3}, wake up time{prime_input_4}, ailments{prime_input_5}, gender{prime_input_7} and excercise{prime_input_6}
+  .A very healthy person with good physical excercise schedule,no ailments, low drinking, good sleep schedule should be given a 100 and the less the good habits the less the score.
+  Combine the gym schedule{input1} and sleep schedule{input3} by removing any overlaps and optimizing the resulting schedule and output it. Calculate a final possible health score by following the optimized gym schedule{input1} , sleep schedule{input3}, nutrition{input2}.
+
+readme:
+  Gives a well rounded and structured diet, nutrition, gym and sleep schedule for you to achive your best self and help you alleviate your diseases.
